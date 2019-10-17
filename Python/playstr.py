@@ -1,0 +1,17 @@
+t=int(input())
+while(t>0):
+    n=int(input())
+    s=input()
+    s0=s.count("0")
+    s1=n-s0
+    r=input()
+    r1=r.count("1")
+    r0=n-r1
+    if(s0==r0):
+        if(s1==r1):
+            print("YES")
+        else:
+            print("NO")
+    else:
+        print("NO")
+    t=t-1

@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    s=input()
+    c=s.count("1")
+    if(c%2==1):
+        print("WIN")
+    else:
+        print("LOSE")
+    t=t-1

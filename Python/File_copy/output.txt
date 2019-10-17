@@ -1,0 +1,2 @@
+This is the first file.
+Everything here will be copied as it is to the second file.
